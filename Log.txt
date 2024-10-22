@@ -1,0 +1,22 @@
+2024-10-22 11:34:48,321 I[KsoapHelper.java:388](5821|5882)[KsoapHelper]MSG_QUERY_FILE_MD5
+2024-10-22 11:34:48,321 I[KsoapHelper.java:105](5821|5882)[KsoapHelper]QueryFileMD5, wjmc: 20241022104306NOR06050985TD030000.mp4, wjbh: 20241022104306NOR06050985TD030000
+2024-10-22 11:34:50,470 I[KsoapHelper.java:130](5821|5882)[KsoapHelper]queryFileMD5Response: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data name="QueryFileMD5" code="0">
+    <message>查询失败</message>
+</data>
+
+2024-10-22 11:34:50,472 I[KsoapHelper.java:141](5821|5882)[KsoapHelper]codeValue: 0 
+2024-10-22 11:36:44,786 I[KsoapHelper.java:388](5821|5882)[KsoapHelper]MSG_QUERY_FILE_MD5
+2024-10-22 11:36:44,787 I[KsoapHelper.java:105](5821|5882)[KsoapHelper]QueryFileMD5, wjmc: 20241022104306NOR06050985TD030000.mp4, wjbh: 20241022104306NOR06050985TD030000
+2024-10-22 11:36:44,943 I[KsoapHelper.java:130](5821|5882)[KsoapHelper]queryFileMD5Response: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data name="QueryFileMD5" code="0">
+    <message>查询失败</message>
+</data>
+
+2024-10-22 11:36:44,945 I[KsoapHelper.java:141](5821|5882)[KsoapHelper]codeValue: 0 
+2024-10-22 11:38:43,109 I[KsoapHelper.java:388](5821|5882)[KsoapHelper]MSG_QUERY_FILE_MD5
+2024-10-22 11:38:43,110 I[KsoapHelper.java:105](5821|5882)[KsoapHelper]QueryFileMD5, wjmc: 20241022104306NOR06050985TD030000.mp4, wjbh: 20241022104306NOR06050985TD030000
+2024-10-22 11:38:43,234 I[KsoapHelper.java:130](5821|5882)[KsoapHelper]queryFileMD5Response: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data name="QueryFileMD5" code="0">
+    <message>查询失败</message>
+</data>
