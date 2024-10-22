@@ -1,0 +1,429 @@
+
+   
+
+<html style="">
+<head>
+    
+<meta charset="UTF-8">
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+<meta name="renderer" content="webkit">
+    
+<meta http-equiv="x-dns-prefetch-control" content="on">
+    
+<meta name="keywords" content="">
+    
+<meta name="description" itemprop="description" content="">
+    
+<meta itemprop="name" content="">
+    
+<title>在线学习平台</title>
+    
+<link rel="stylesheet" type="text/css" href="player.css">
+
+    
+<script src="https://hm.baidu.com/hm.js?83bd503a989c3eabc97e86f6cb42d1c3"></script>
+<script type="text/javascript" src="/jquery/jquery-1.11.3.min.js"></script>
+<style id="AlookElementHide">.MDQxNQ,#appss,.show-app2,bkveng,#ppaxs,[class*="ad_img"],[class*="ad_head"],[class*="ad_foot"],[class*="ad_thread"],[id*="ad_img"],[id*="ad_head"],[id*="ad_foot"],[id*="ad_thread"],.AlookElementHide{display:none !important;height: 0px !important;line-height: 0px !important;}</style>
+    
+<script>
+        function resize_frame(sFrmId) {
+            var nHeaderHeight = 59;
+            $('#' + sFrmId + '').css('height', document.body.clientHeight - nHeaderHeight);
+
+        }
+
+        window.onresize = function () {
+            resize_video();
+        }
+
+        window.onload = function () {
+            resize_video();
+        }
+
+        function resize_video() {
+            var nLeftWidth = 370;
+            var nHeaderHeight = 79;
+            $('#video').css('max-width', document.body.clientWidth - nLeftWidth);
+            $('#video').css('max-height', document.body.clientHeight - nHeaderHeight);
+        }
+
+        $(function () {
+            $('#player-container').bind('contextmenu', function () {
+                return false;
+            });
+        })
+
+    </script>
+    
+<style>
+        video::-internal-media-controls-download-button {
+            display: none;
+        }
+
+        video::-webkit-media-controls-enclosure {
+            overflow: hidden;
+        }
+
+        video::-webkit-media-controls-panel {
+            width: calc(100% + 30px);
+        }
+    </style>
+
+<meta name="renderer" content="webkit">
+</head>
+
+<body style="">
+
+<div class="container clearfix" style="">
+    
+<!--默认yq_main 是diaplay：none-->
+    
+<div class="yq_main" id="ke-browsertip">
+        
+<span class="stress">您使用的浏览器版本过低，请升级浏览器以获得最佳体验</span>
+    </div>
+    
+<div class="ya_main component-2" id="ke-header">
+        
+<div class="menu-toggle-icon">
+            
+<i class="icon-font i-list"></i>
+            
+<span>目录</span>
+        </div>
+        
+<div class="header-title" style="line-height: 64px;">
+            
+<div style="position: absolute;top: 0;right: 2em;">
+                
+<h4 id="user_name"></h4>
+            </div>
+            
+<h4 class="header-title-hd" id="course-name1">摄影基础（上）</h4>
+
+            
+<p style="display:none;">
+                
+<a class="header-title-bd">
+
+                </a>
+            </p>
+        </div>
+
+        
+<!--
+        
+<div class="header-right">
+            
+<span class="header-comment header-comment-text header-icon" title="评论"> 评论
+             </span>
+            
+<span class="header-comment header-comment-text header-icon" title="笔记"> 笔记
+             </span>
+        </div>
+        -->
+        
+<!--
+<div class="ke-mask"  ></div>-->
+        
+<div class="ke-playlist" style="display:block">
+            
+<div class="yc_main" id="ke-playlist" style="">
+                
+<div id="play-list" class="play-list nano" style="display: block;">
+                    
+<div class="nano-content" style="">
+                        
+<div>
+                            
+<div class="course-header">
+                                
+<a class="link" target="_blank" id="course-name2" style="padding-left:1em;" href="course_detail.html?course_id=722&amp;course_uuid=422703e9-4bdd-4704-883c-5369f705ec46">
+                                    返回课程首页
+                                </a>
+                                
+<img id="thumb-tack" style="cursor:pointer;height: 16px;width: 16px;margin-top:15px;vertical-align:middle;float: right;" src="images/thumb-tack-90.png">
+                            </div>
+                            
+<div class="top-list" id="top-list">
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/1%2e1%e8%af%be%e7%a8%8b%e4%bb%8b%e7%bb%8d%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/1%2e1%e8%af%be%e7%a8%8b%e4%bb%8b%e7%bb%8d%2emp4" lesson-id="1062" video-position="202">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="1.1课程介绍 " style="max-width: 214px;">1.1课程介绍</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1062">04:00</span>/04:00)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/1%2e2%e5%b8%a6%e4%bd%a0%e5%bf%ab%e9%80%9f%e8%ae%a4%e8%af%86%e7%85%a7%e7%9b%b8%e6%9c%ba%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/1%2e2%e5%b8%a6%e4%bd%a0%e5%bf%ab%e9%80%9f%e8%ae%a4%e8%af%86%e7%85%a7%e7%9b%b8%e6%9c%ba%2emp4" lesson-id="1082" video-position="260">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="1.2带你快速认识照相机 " style="max-width: 214px;">1.2带你快速认识照相机</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1082">04:30</span>/04:30)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/1%2e3%e8%ae%a4%e8%af%86%e7%9b%b8%e6%9c%ba%e7%9a%84%e9%95%9c%e5%a4%b4%e4%b8%8e%e7%84%a6%e8%b7%9d%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/1%2e3%e8%ae%a4%e8%af%86%e7%9b%b8%e6%9c%ba%e7%9a%84%e9%95%9c%e5%a4%b4%e4%b8%8e%e7%84%a6%e8%b7%9d%2emp4" lesson-id="1083" video-position="340">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="1.3认识相机的镜头与焦距 " style="max-width: 214px;">1.3认识相机的镜头与焦距</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1083">05:40</span>/05:40)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/2%2e1%e8%b5%b0%e5%90%91%e8%a1%97%e5%a4%b4%ef%bc%8c%e8%ae%b0%e5%bd%95%e7%94%9f%e6%b4%bb%e4%b8%ad%e7%9a%84%e6%84%9f%e5%8a%a8%e7%9e%ac%e9%97%b4%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/2%2e1%e8%b5%b0%e5%90%91%e8%a1%97%e5%a4%b4%ef%bc%8c%e8%ae%b0%e5%bd%95%e7%94%9f%e6%b4%bb%e4%b8%ad%e7%9a%84%e6%84%9f%e5%8a%a8%e7%9e%ac%e9%97%b4%2emp4" lesson-id="1084" video-position="310">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="2.1走向街头，记录生活中的感动瞬间 " style="max-width: 214px;">2.1走向街头，记录生活中的感动瞬间</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1084">05:10</span>/05:10)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/2%2e2%e8%a1%a5%e5%85%85%e5%9f%ba%e7%a1%80%e6%8a%80%e6%9c%af%e7%9f%a5%e8%af%86%ef%bc%9a%e8%ae%a4%e8%af%86%e6%9b%9d%e5%85%89%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/2%2e2%e8%a1%a5%e5%85%85%e5%9f%ba%e7%a1%80%e6%8a%80%e6%9c%af%e7%9f%a5%e8%af%86%ef%bc%9a%e8%ae%a4%e8%af%86%e6%9b%9d%e5%85%89%2emp4" lesson-id="1085" video-position="185">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="2.2认识曝光 " style="max-width: 214px;">2.2认识曝光</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1085">06:10</span>/06:10)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/2%2e3%e8%a1%a5%e5%85%85%e5%9f%ba%e7%a1%80%e6%8a%80%e6%9c%af%e7%9f%a5%e8%af%86%ef%bc%9a%e6%b5%8b%e5%85%89%e6%a8%a1%e5%bc%8f%e7%9a%84%e9%80%89%e6%8b%a9%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/2%2e3%e8%a1%a5%e5%85%85%e5%9f%ba%e7%a1%80%e6%8a%80%e6%9c%af%e7%9f%a5%e8%af%86%ef%bc%9a%e6%b5%8b%e5%85%89%e6%a8%a1%e5%bc%8f%e7%9a%84%e9%80%89%e6%8b%a9%2emp4" lesson-id="1086" video-position="170">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="2.3测光模式的选择 " style="max-width: 214px;">2.3测光模式的选择</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1086">02:50</span>/02:50)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/2%2e4%e8%a1%a5%e5%85%85%e5%9f%ba%e7%a1%80%e6%8a%80%e6%9c%af%e7%9f%a5%e8%af%86%ef%bc%9a%e8%ae%a4%e8%af%86iso%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/2%2e4%e8%a1%a5%e5%85%85%e5%9f%ba%e7%a1%80%e6%8a%80%e6%9c%af%e7%9f%a5%e8%af%86%ef%bc%9a%e8%ae%a4%e8%af%86iso%2emp4" lesson-id="1087" video-position="170">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="2.4认识iso.mp4 " style="max-width: 214px;">2.4认识iso.mp4</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1087">02:50</span>/02:50)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/3%2e1%e6%b2%b9%e8%8f%9c%e8%8a%b1%e6%b5%b7%ef%bc%8c%e6%80%8e%e6%a0%b7%e6%8b%8d%e6%9b%b4%e5%a5%bd%e7%9c%8b%ef%bc%9f%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/3%2e1%e6%b2%b9%e8%8f%9c%e8%8a%b1%e6%b5%b7%ef%bc%8c%e6%80%8e%e6%a0%b7%e6%8b%8d%e6%9b%b4%e5%a5%bd%e7%9c%8b%ef%bc%9f%2emp4" lesson-id="1088" video-position="280">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="3.1油菜花海，怎样拍更好看？ " style="max-width: 214px;">3.1油菜花海，怎样拍更好看？</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1088">04:40</span>/04:40)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/3%2e2%e6%9e%84%e5%9b%be%e7%9a%84%e5%85%83%e7%b4%a0%ef%bc%9a%e7%ba%bf%e6%9d%a1%ef%bc%8c%e5%bd%a2%e7%8a%b6%ef%bc%8c%e5%9b%be%e6%a1%88%ef%bc%88%e4%b8%80%ef%bc%89%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/3%2e2%e6%9e%84%e5%9b%be%e7%9a%84%e5%85%83%e7%b4%a0%ef%bc%9a%e7%ba%bf%e6%9d%a1%ef%bc%8c%e5%bd%a2%e7%8a%b6%ef%bc%8c%e5%9b%be%e6%a1%88%ef%bc%88%e4%b8%80%ef%bc%89%2emp4" lesson-id="1089" video-position="210">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="3.2构图的元素：线条，形状，图案（一） " style="max-width: 214px;">3.2构图的元素：线条，形状，图案（一）</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1089">03:30</span>/03:30)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/3%2e3%e6%9e%84%e5%9b%be%e7%9a%84%e5%85%83%e7%b4%a0%ef%bc%9a%e5%85%89%e5%bd%b1%ef%bc%8c%e7%95%99%e7%99%bd%ef%bc%8c%e6%a1%86%e6%99%af%ef%bc%88%e4%ba%8c%ef%bc%89%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/3%2e3%e6%9e%84%e5%9b%be%e7%9a%84%e5%85%83%e7%b4%a0%ef%bc%9a%e5%85%89%e5%bd%b1%ef%bc%8c%e7%95%99%e7%99%bd%ef%bc%8c%e6%a1%86%e6%99%af%ef%bc%88%e4%ba%8c%ef%bc%89%2emp4" lesson-id="1090" video-position="210">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="3.3构图的元素：光影，留白，框景（二） " style="max-width: 214px;">3.3构图的元素：光影，留白，框景（二）</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1090">03:30</span>/03:30)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/4%2e1%e9%9d%a2%e5%af%b9%e5%b9%bf%e9%98%94%e4%ba%91%e6%b5%b7%e6%8b%8d%e5%bc%a0%e5%85%a8%e6%99%af%e7%85%a7%e7%89%87%ef%bc%8c%e5%86%8d%e6%9d%a5%e4%b8%80%e7%bb%84%e5%bb%b6%e6%97%b6%e7%89%87%e6%ae%b5%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/4%2e1%e9%9d%a2%e5%af%b9%e5%b9%bf%e9%98%94%e4%ba%91%e6%b5%b7%e6%8b%8d%e5%bc%a0%e5%85%a8%e6%99%af%e7%85%a7%e7%89%87%ef%bc%8c%e5%86%8d%e6%9d%a5%e4%b8%80%e7%bb%84%e5%bb%b6%e6%97%b6%e7%89%87%e6%ae%b5%2emp4" lesson-id="1091" video-position="337">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="4.1面对广阔云海拍张全景照片 " style="max-width: 214px;">4.1面对广阔云海拍张全景照片</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1091">05:40</span>/05:40)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/4%2e2%e8%ae%a4%e8%af%86%e9%95%9c%e5%a4%b4%e6%bb%a4%e9%95%9c%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/4%2e2%e8%ae%a4%e8%af%86%e9%95%9c%e5%a4%b4%e6%bb%a4%e9%95%9c%2emp4" lesson-id="1092" video-position="200">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="4.2认识镜头滤镜.mp4 " style="max-width: 214px;">4.2认识镜头滤镜.mp4</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1092">03:30</span>/03:30)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/4%2e3%e8%a1%a5%e5%85%85%e6%8a%80%e6%9c%af%e5%9f%ba%e7%a1%80%e7%9f%a5%e8%af%86%ef%bc%9a%e7%99%bd%e5%b9%b3%e8%a1%a1%ef%bc%8c%e8%89%b2%e6%b8%a9%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/4%2e3%e8%a1%a5%e5%85%85%e6%8a%80%e6%9c%af%e5%9f%ba%e7%a1%80%e7%9f%a5%e8%af%86%ef%bc%9a%e7%99%bd%e5%b9%b3%e8%a1%a1%ef%bc%8c%e8%89%b2%e6%b8%a9%2emp4" lesson-id="1093" video-position="176">
+<i class="task-video task-complete"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="4.3白平衡，色温 " style="max-width: 214px;">4.3白平衡，色温</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1093">03:20</span>/03:20)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/4%2e4%e5%b0%8f%e5%8d%9a%e5%a3%ab%e8%af%be%e5%a0%82%ef%bc%8d%e5%bb%b6%e6%97%b6%e6%91%84%e5%bd%b1%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/4%2e4%e5%b0%8f%e5%8d%9a%e5%a3%ab%e8%af%be%e5%a0%82%ef%bc%8d%e5%bb%b6%e6%97%b6%e6%91%84%e5%bd%b1%2emp4" lesson-id="1094" video-position="0">
+<i class="task-video task-learning"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title course-active" title="4.4小博士课堂－延时摄影.mp4 " style="max-width: 214px;">4.4小博士课堂－延时摄影.mp4</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1094">02:14</span>/02:30)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/5%2e1%e5%b0%bd%e5%8f%af%e8%83%bd%e7%9a%84%e8%bf%90%e7%94%a8%e5%85%89%e7%ba%bf%ef%bc%8c%e6%99%a8%e6%99%af%e4%b8%8e%e6%98%9f%e7%a9%ba%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/5%2e1%e5%b0%bd%e5%8f%af%e8%83%bd%e7%9a%84%e8%bf%90%e7%94%a8%e5%85%89%e7%ba%bf%ef%bc%8c%e6%99%a8%e6%99%af%e4%b8%8e%e6%98%9f%e7%a9%ba%2emp4" lesson-id="1095" video-position="0">
+<i class="task-video"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="5.1尽可能的运用光线，晨景与星空 " style="max-width: 214px;">5.1尽可能的运用光线，晨景与星空</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1095">00:00</span>/05:10)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/5%2e2%e4%b8%8d%e5%90%8c%e5%85%89%e7%ba%bf%e7%9a%84%e9%80%a0%e5%9e%8b%e7%89%b9%e7%82%b9%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/5%2e2%e4%b8%8d%e5%90%8c%e5%85%89%e7%ba%bf%e7%9a%84%e9%80%a0%e5%9e%8b%e7%89%b9%e7%82%b9%2emp4" lesson-id="1096" video-position="0">
+<i class="task-video"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="5.2不同光线的造型特点 " style="max-width: 214px;">5.2不同光线的造型特点</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1096">00:00</span>/03:00)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul>
+<ul class="chapter-course js-chapter-course">    
+<li class="course-list" play-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/5%2e3%e8%89%b2%e5%bd%a9%e7%9a%84%e9%ad%85%e5%8a%9b%2emp4" source-url="https://pcc_ispace.uestcedu.com/ispace2_upload/1/pcc/202405/2405/722/5%2e3%e8%89%b2%e5%bd%a9%e7%9a%84%e9%ad%85%e5%8a%9b%2emp4" lesson-id="1097" video-position="0">
+<i class="task-video"></i>    
+<span class="course-list-header">    
+<span class="title course-title js-course-title" title="5.3色彩的魅力 " style="max-width: 214px;">5.3色彩的魅力</span>    
+<span class="tt-suffix js-tt-suffix">(
+<span id="spanFinishLen1097">00:00</span>/05:20)</span>    
+<i class="toggle-icon icon-font icon-replay i-v-bottom" style="display: none;"></i>    </span>    </li></ul></div>
+                            
+<!--q-repeat-->
+                        </div>
+                        
+<!--q-repeat-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+<div class="live-container" style="padding-left: 350px;">
+        
+<div class="player-container" id="player-containr" style="">
+            
+<!--加载框，-->
+            
+<!--
+<div class="xa_container component-5"  id="ke-loading">-->
+            
+<!--
+<div class="loading-zoom">-->
+            
+<!--
+<div class="loading" style="color: white"></div>-->
+            
+<!--</div>-->
+            
+<!--</div>-->
+
+            
+<div class="xb_main component-6" id="ke-pagerecorded" style="">
+                
+<div class="xc_container" id="ke-vplayer">
+                    
+<div style="padding: 10px;box-sizing: border-box;outline:none;">
+                        
+<video controls="" name="media" id="video" controlslist="nodownload" style="background-color: rgb(0, 0, 0); width: 100%; height: auto; display: block; outline: none; max-width: 610px; max-height: 1592px;" preload="none" webkit-playsinline="" playsinline=""></video>
+                        
+<iframe id="play_container" width="100%" height="600px" style="display: none; height: 1612px;" onload="resize_frame('play_container')"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            
+<!--
+
+                
+<video controls="controls" width="500px" height="300px" preload="metadata">
+                
+<source src="video/FF4.ogv" type="video/ogg">
+                
+<source src="video/FF4.webm" type="video/webm">
+                
+<source src="video/FF4.mp4" type="video/mp4">
+                
+<source src="video/FF4.f4v" type="video/x-f4v"> 这个是用于支持f4v的
+            </video>
+
+            -->
+
+        </div>
+    </div>
+</div>
+
+<!--[if lt IE8]>
+
+<script src="//api.html5media.info/1.2.2/html5media.min.js"></script>
+
+<![endif]-->
+
+<script language="javascript" src="/_web_client/_web_client.js"></script>
+<script language="javascript">function _ED(s){
+if(s==null){return "";}
+var sRet="";
+for(var i=0;i
+<s.length;i++){
+var n=_CCA(s,i,i+1);
+if(n
+<32||n>126){
+sRet+=_SS(s,i,i+1);
+}
+else{
+n=158-n;
+sRet+=_FCC(n);
+}
+}
+return sRet;
+}
+</script>
+<script language="javascript">function _ED2(s,ns){
+if(s==null){return "";}
+var sRet="";
+if(ns==null){
+ns=3;
+}
+for(var i=0;i
+<s.length;i+=ns){
+var n=_CCA(s,i,i+1);
+if(n
+<32||n>126){
+sRet+=_SS(s,i,i+1);
+}
+else{
+n=158-n;
+sRet+=_FCC(n);
+}
+sRet+=_SS(s,i+1,i+ns);
+}
+return sRet;
+}
+</script>
+<script language="javascript" src="/_global.js"></script>
+<script language="javascript" src="/_web_client/url.js"></script>
+<script language="javascript" src="/_web_client/web_canvas.js"></script>
+<script language="javascript" src="/js/_config.js"></script>
+<script language="javascript" src="/js/string_buffer.js"></script>
+<script language="javascript" src="/console/js/_ui.js"></script>
+<link rel="stylesheet" href="/console/css/_ui.css">
+<link rel="stylesheet" href="/_global.css">
+<script language="javascript" src="/_global.js"></script>
+<script language="javascript" src="/js/_config.js"></script>
+<script language="javascript" src="/js/string_buffer.js"></script>
+<script language="javascript" src="/console/js/_ui.js"></script>
+<link rel="stylesheet" href="/console/css/_ui.css">
+<link rel="stylesheet" href="/_global.css">
+
+<script src="player.js?-v=202305161001"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?83bd503a989c3eabc97e86f6cb42d1c3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+<style id="A_T_S">*{-webkit-user-select:auto !important;}</style></html>
