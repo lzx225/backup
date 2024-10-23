@@ -1,0 +1,27 @@
+<script language="javascript">
+
+const videoSrc = document.querySelector('#video').getAttributeNode('src').nodeValue
+console.log("lzx",videoSrc)
+
+const courseListItems = document.querySelectorAll('li.course-list')
+courseListItems.forEach(function(item){
+    // const spanFinishItem = item.querySelector('spanFinishLen')
+    // item.querySelector('[id^="spanFinishLen"]')
+    console.log("lzx","spanFinishItem:   "+item.querySelector('span').)
+    if(videoSrc === item.getAttribute('play-url')){
+        // const courseHeader = item.querySelector('.course-list-header')
+        const timeText = item.querySelector('.js-tt-suffix').textContent
+        console.log("lzx","check result:   "+timeText)
+        const splitTime = timeText.split('/')
+        const playTime = splitTime[0].split('(')[1].trim()
+        const totalTime = splitTime[1].split(')')[0].trim()
+        console.log("lzx","playTime:   "+playTime)
+        console.log("lzx","totalTime:   "+totalTime)
+        
+        if (condition) {
+            
+        }
+
+        
+    }
+})
